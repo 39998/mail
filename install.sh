@@ -7,3 +7,4 @@ echo "echo | mail -s "test" xx@segfault.net"
 rm -rf /etc/ssmtp/*
 cp /file/mail/ssmtp.conf /etc/ssmtp
 cp /file/mail/revaliases /etc/ssmtp
+rm -rf /file/mail
